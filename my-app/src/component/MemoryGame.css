@@ -1,0 +1,40 @@
+*{
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+.cardContainer{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+}
+
+
+.card{
+width: 200px;
+height: 200px;
+margin: 5px;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShqJgbM8KFjh8NSsfh6CCa-LxApWycHK8Zjg&usqp=CAU");
+background-size:cover;
+background-repeat: no-repeat;
+border: black 5px solid;
+}
+
+
+.card div img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.gameOverText{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 20%;
+    font-size:50px;
+    font-weight: bold;
+    color: red;
+
+}
